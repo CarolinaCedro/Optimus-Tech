@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-/* main {
-  padding: 0rem 112px;
-} */
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -432,6 +432,33 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: #667085;
+}
+
+.scrollup {
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  background-color: #8b0b0b;
+  opacity: .8;
+  padding: 0 .3rem;
+  border-radius: .4rem;
+  z-index: 10;
+  transition: .4s;
+  
+}
+
+.scrollup:hover {
+  background-color: #8e2424c7;
+}
+
+.scrollup__icon {
+  font-size: 2rem;
+  color: white;
+}
+
+
+.show-scroll {
+  bottom: 5rem;
 }
 
 
